@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<title>Calulator | Vidhya </title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>	
+	<meta name="author" content="vidhya, vidhyav656@gmail.com"/>
+	<meta name="keywords" content="calculator, mini calculator"/>
+	<meta name="description" content="A calculator build with html, css and javascript"/>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+   <div id="outer-wrapper">
+    <div id="inner-wrapper">
+        <div id ="screen-show">
+            <input type="text" name="screen" value="0"  id="screen" placeholder="0" disabled="true" />
+        </div>
+        <div id="button-show">
+            <button id="7" value="7" onclick="numbers(7)">7</button>
+            <button id="8" value="8" onclick="numbers(8)">8</button>
+            <button id="9" value="9" onclick="numbers(9)">9</button>
+            <button id="divide" value="/" onclick="numbers('/')">/</button>
+            <button id="del" value="del" onclick="deleted(del)">DEL</button>
+            <br>
+            <button id="6" value="6" onclick="numbers(6)">6</button>
+            <button id="5" value="5" onclick="numbers(5)">5</button>
+            <button id="4" value="4" onclick="numbers(4)">4</button>
+            <button id="multiply" value="*" onclick="numbers('*')">x</button>
+            <button id="percent" value="%" onclick="numbers('%')">%</button>
+            <br>
+            <button id="3" value="3" onclick="numbers(3)" >3</button>
+            <button id="2" value="2" onclick="numbers(2)">2</button>
+            <button id="1" value="1" onclick="numbers(1)">1</button>
+            <button id="substrct" value="-" onclick="numbers('-')">-</button>
+            <button id="equal" value="=" onclick="numbers('=')">=</button>
+            <br>
+            <button id="b0" value="0" onclick="numbers(0)">0</button>
+            <button id="dot" value="." onclick="dots('.')">.</button>
+            <button id="add" value="+" onclick="numbers('+')">+</button>
+        </div>
+        <div class="center">Vidhya!</div>
+    </div>  
+</div>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
